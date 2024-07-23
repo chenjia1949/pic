@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-07T02:00:34.924Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="8F7IqaI5QtT7D1-x8Hf_" version="20.5.3" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2024-07-23T01:52:21.160Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="G4-RPfZ50EnuUskotlu_" version="24.7.3" type="github" pages="9">
   <diagram id="1ibXJEjT5v1Qtc3Ci-ZA" name="灰度部署">
     <mxGraphModel dx="946" dy="548" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -560,6 +560,57 @@
         </mxCell>
         <mxCell id="-kux7we6ycN59ArkVauI-8" value="app" style="shape=actor;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="100" y="160" width="40" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="eVGOrCz81mwNdSkWSltE" name="第 9 页">
+    <mxGraphModel dx="1803" dy="1090" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IIUat3zzKJGHv7B_V3qo-1" value="Web SDK" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IIUat3zzKJGHv7B_V3qo-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IIUat3zzKJGHv7B_V3qo-2" target="IIUat3zzKJGHv7B_V3qo-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IIUat3zzKJGHv7B_V3qo-2" value="&amp;nbsp;IOS SDK" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IIUat3zzKJGHv7B_V3qo-3" value="&amp;nbsp;Android SDK" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IIUat3zzKJGHv7B_V3qo-4" value="ds-event-server&amp;nbsp; &amp;nbsp;(golang异步API)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="180" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IIUat3zzKJGHv7B_V3qo-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="IIUat3zzKJGHv7B_V3qo-5" target="IIUat3zzKJGHv7B_V3qo-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="275" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IIUat3zzKJGHv7B_V3qo-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="IIUat3zzKJGHv7B_V3qo-5" target="IIUat3zzKJGHv7B_V3qo-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IIUat3zzKJGHv7B_V3qo-5" value="Hadoop 集群" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="137.5" y="320" width="500" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IIUat3zzKJGHv7B_V3qo-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.106;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="IIUat3zzKJGHv7B_V3qo-1" target="IIUat3zzKJGHv7B_V3qo-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IIUat3zzKJGHv7B_V3qo-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.888;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="IIUat3zzKJGHv7B_V3qo-3" target="IIUat3zzKJGHv7B_V3qo-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IIUat3zzKJGHv7B_V3qo-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="IIUat3zzKJGHv7B_V3qo-4" target="IIUat3zzKJGHv7B_V3qo-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="245" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IIUat3zzKJGHv7B_V3qo-12" value="ClickHouse 集群" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="137.5" y="450" width="500" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IIUat3zzKJGHv7B_V3qo-14" value="kafka 集群" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="315" y="240" width="145" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
